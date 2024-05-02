@@ -107,3 +107,23 @@ Con esas palabras sacadas de los relatórios, puedo ver que las mayores causas d
 
 - Rutas con mayor numero de Accidentes
 <img src="img/Rutas con Mayor Frecuencia de Accidentes Aéreos.png">
+
+## Uso de Tecnologías
+
+Este análisis se llevó a cabo utilizando una variedad de tecnologías, incluyendo:
+
+- **Jupyter:** Se utilizó Jupyter Notebook para escribir y ejecutar código Python de manera interactiva, lo que permitió un análisis eficiente de los datos.
+
+- **Pandas:** La biblioteca Pandas se utilizó para la manipulación y análisis de datos. Facilitó la limpieza, filtrado y agregación de datos para su posterior visualización.
+
+- **NumPy:** NumPy se empleó para realizar cálculos numéricos y operaciones en matrices, lo que resultó útil en diversas partes del análisis.
+
+- **Matplotlib:** Matplotlib fue la herramienta de elección para la creación de visualizaciones, incluyendo gráficos de barras, gráficos de líneas y gráficos de distribución.
+
+- **Power BI:** Para llevar a cabo el seguimiento y presentación de los indicadores clave de rendimiento (KPIs) propuestos, se utilizó Power BI, lo que permitió una visualización efectiva y dinámica de los datos.
+
+## Contacto
+
+- Nombre: Leonardo Augusto Costa Hermes
+- Correo Electrónico: lcostahermes@gmail.com
+- LinkedIn: [/in/leonardo-costa-672a3a1b9](https://www.linkedin.com/in/leonardo-c-hermes)
