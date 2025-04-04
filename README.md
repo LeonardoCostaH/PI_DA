@@ -4,7 +4,7 @@
 
 # <h1 align="center">**`Accidentes Aereos`**</h1>
 
-## **Descripción del problema -contexto y rol a desarrollar-**
+## **Descripción del problema**
 
 ### **Contexto**
 
