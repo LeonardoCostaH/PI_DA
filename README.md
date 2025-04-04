@@ -1,26 +1,38 @@
 <p align='center'>
-<img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F09%2F15%2F16%2F13%2Fairplane-1671967_1280.jpg"  height=300>
+<img src="img/prevencion_accidentes_aereos.png"  height=300>
 <p>
 
-# <h1 align="center">**`Accidentes Aereos`**</h1>
+# <h1 align="center">**`Análisis para prevención de Accidentes Aéreos`**</h1>
+---
 
-## **Descripción del problema**
+### Índice del Proyecto
 
-### **Contexto**
-
-Los accidentes aéreos son eventos inesperados e indeseados que involucran aeronaves y se producen daños físicos a personas o a la propia aeronave. Un accidente aéreo puede involucrar cualquier tipo de aeronave, incluyendo aviones comerciales, aviones privados, helicópteros, planeadores y globos aerostáticos.
-
-Los accidentes aéreos pueden ser causados por diversos factores, como errores humanos, fallos de equipos, problemas meteorológicos, problemas de mantenimiento, fallas en la gestión del tráfico aéreo, problemas de diseño o problemas de fabricación. Y en cuanto a sus consecuencias, pueden ser tanto en términos de pérdidas humanas como económicas.
-
-Es por eso que la industria de la aviación, las autoridades reguladoras y los investigadores trabajan incansablemente para mejorar la seguridad de la aviación y prevenir futuros accidentes. Por otro lado, para las organizaciones asociadas a la aviación, estudiar la causalidad de los accidentes y aprender a cómo prevenirlos en el futuro es clave para poder evitar pérdidas humanas y daños materiales significativos. 
+- [Descripción del trabajo realizado](#descripción-del-trabajo-realizado)
+- [EDA (Exploratory Data Analysis)](#eda-exploratory-data-analysis)
+  - [Exploración Inicial](#exploración-inicial)
+  - [Análisis](#análisis)
+    - [Víctimas por Categoría](#víctimas-por-categoría)
+    - [Pasajeros a Bordo vs. Fatalidades](#pasajeros-a-bordo-vs-fatalidades)
+    - [Tendencias Temporales](#tendencias-temporales)
+    - [Accidentes por Estación del Año](#accidentes-por-estación-del-año)
+    - [Día más Desafortunado del Año](#día-más-desafortunado-del-año)
+    - [Accidentes por Horario](#accidentes-por-horario)
+    - [Análisis de Palabras en los Reportes](#análisis-de-palabras-en-los-reportes)
+    - [Modelos de Aeronaves con Mayor Número de Accidentes](#modelos-de-aeronaves-con-mayor-número-de-accidentes)
+    - [Empresas de Aviación con Mayor Cantidad de Accidentes](#empresas-de-aviación-con-mayor-cantidad-de-accidentes)
+    - [Rutas con Mayor Número de Accidentes](#rutas-con-mayor-número-de-accidentes)
+- [Uso de Tecnologías](#uso-de-tecnologías)
+- [Contacto](#contacto)
 
 ---
 
-### **Rol a desarrollar**
+## **Descripción del trabajo realizado**
 
-La **Organización de Aviación Civil Internacional (OACI)**, organismo de la Organización de las Naciones Unidas, quiere investigar en profundidad los accidentes producidos desde inicios del siglo XX. Para ello, el objetivo principal es poder obtener un análisis de datos relacionado a esto, junto a un dashboard que complemente los análisis con sus visualizaciones. 
+En el marco de un proyecto impulsado por la Organización de Aviación Civil Internacional (OACI), se llevó a cabo un análisis exhaustivo de datos relacionados con accidentes aéreos ocurridos desde inicios del siglo XX. El objetivo principal fue comprender las causas más frecuentes de estos accidentes, identificar patrones temporales y geográficos, y aportar información valiosa que contribuya a mejorar la seguridad en la aviación.
 
-La OACI únicamente cuenta con un dataset sobre datos de accidentes de aviones, pero insta a la consultora de datos -de la que forman parte- que intente cruzar esta información con otras fuentes de su interés. Esto con el objetivo de obtener mayor claridad y consistencia en los fundamentos del estudio.
+Para ello, se utilizó un dataset proporcionado por la OACI, el cual fue enriquecido mediante el cruce con fuentes de datos externas seleccionadas estratégicamente. Además del análisis estadístico, se desarrolló un dashboard interactivo con visualizaciones dinámicas que permiten explorar los resultados de manera clara y accesible.
+
+A continuación, se presentan los principales hallazgos obtenidos a partir de este trabajo.
 
 ---
 
