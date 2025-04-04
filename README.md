@@ -14,6 +14,7 @@ Los accidentes aéreos pueden ser causados por diversos factores, como errores h
 
 Es por eso que la industria de la aviación, las autoridades reguladoras y los investigadores trabajan incansablemente para mejorar la seguridad de la aviación y prevenir futuros accidentes. Por otro lado, para las organizaciones asociadas a la aviación, estudiar la causalidad de los accidentes y aprender a cómo prevenirlos en el futuro es clave para poder evitar pérdidas humanas y daños materiales significativos. 
 
+---
 
 ### **Rol a desarrollar**
 
@@ -21,7 +22,7 @@ La **Organización de Aviación Civil Internacional (OACI)**, organismo de la Or
 
 La OACI únicamente cuenta con un dataset sobre datos de accidentes de aviones, pero insta a la consultora de datos -de la que forman parte- que intente cruzar esta información con otras fuentes de su interés. Esto con el objetivo de obtener mayor claridad y consistencia en los fundamentos del estudio.
 
-
+---
 
 **`EDA` (Exploratory Data Analysis)**
 
@@ -33,6 +34,8 @@ La OACI únicamente cuenta con un dataset sobre datos de accidentes de aviones, 
 - Las columnas tenían el valor "?" adónde serían valores Desconocidos/Nulos, así que cambié para NAN, para facilitar mí analisis.
 - Renombré todos los nombres de columna, solamente por un tema de mejor comprensión 
 - Al final Guardé mí dataframe en formato parquet, para accelerar la lectura 
+
+---
 
 `Análisis` 
 - Víctimas por categoría (passageiros, tripulação, terceiros)
@@ -99,6 +102,8 @@ Con esas palabras sacadas de los relatórios, puedo ver que las mayores causas d
 - Rutas con mayor numero de Accidentes
 <img src="img/Rutas con Mayor Frecuencia de Accidentes Aéreos.png">
 
+---
+
 ## Uso de Tecnologías
 
 Este análisis se llevó a cabo utilizando una variedad de tecnologías, incluyendo:
@@ -112,6 +117,8 @@ Este análisis se llevó a cabo utilizando una variedad de tecnologías, incluye
 - **Matplotlib:** Matplotlib fue la herramienta de elección para la creación de visualizaciones, incluyendo gráficos de barras, gráficos de líneas y gráficos de distribución.
 
 - **Power BI:** Para llevar a cabo el seguimiento y presentación de los indicadores clave de rendimiento (KPIs) propuestos, se utilizó Power BI, lo que permitió una visualización efectiva y dinámica de los datos.
+
+---
 
 ## Contacto
 
