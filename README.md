@@ -1,17 +1,8 @@
 <p align='center'>
-<img src ="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png">
-<p>
-
-<h1 align='center'>
- <b>PROYECTO INDIVIDUAL </b>
-</h1>
- 
-# <h1 align="center">**`Accidentes Aereos`**</h1>
-
-
-<p align='center'>
 <img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F09%2F15%2F16%2F13%2Fairplane-1671967_1280.jpg"  height=300>
 <p>
+
+# <h1 align="center">**`Accidentes Aereos`**</h1>
 
 ## **Descripción del problema -contexto y rol a desarrollar-**
 
@@ -126,4 +117,4 @@ Este análisis se llevó a cabo utilizando una variedad de tecnologías, incluye
 
 - Nombre: Leonardo Augusto Costa Hermes
 - Correo Electrónico: lcostahermes@gmail.com
-- LinkedIn: [/in/leonardo-costa-672a3a1b9](https://www.linkedin.com/in/leonardo-c-hermes)
+- LinkedIn: [/in/leonardo-c-hermes/](https://www.linkedin.com/in/leonardo-c-hermes)
