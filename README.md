@@ -30,7 +30,7 @@
 
 En el marco de un proyecto impulsado por la **Organización de Aviación Civil Internacional (OACI)**, se llevó a cabo un análisis exhaustivo de datos relacionados con accidentes aéreos ocurridos desde inicios del siglo XX. El objetivo principal fue comprender las causas más frecuentes de estos incidentes, identificar patrones temporales y geográficos, y aportar información valiosa que contribuya a mejorar la **seguridad operacional** en la aviación global.
 
-Para ello, se utilizó un dataset proporcionado por la OACI, el cual fue enriquecido mediante la integración de fuentes de datos externas estratégicamente seleccionadas, lo que permitió una **visión más completa y contextualizada** de los eventos. Además del análisis estadístico, se desarrolló un dashboard interactivo con visualizaciones dinámicas en Power BI que permiten explorar los resultados de manera clara y accesible.
+Para ello, se utilizó un *conjunto de datos* proporcionado por la OACI, el cual fue enriquecido mediante la integración de fuentes de datos externas estratégicamente seleccionadas, lo que permitió una **visión más completa y contextualizada** de los eventos. Además del análisis estadístico, se desarrolló un dashboard interactivo con visualizaciones dinámicas en Power BI que permiten explorar los resultados de manera clara y accesible.
 
 A continuación, se presentan los principales hallazgos obtenidos a partir de este trabajo.
 
@@ -41,8 +41,8 @@ A continuación, se presentan los principales hallazgos obtenidos a partir de es
 ### `Exploración Inicial y Limpieza de Datos`
 
 - **Estructura Inicial:** Se eliminó la columna `Unnamed: 0`, que cumplía una función de índice redundante.
-- **Manejo de Valores Faltantes:** Los valores desconocidos o nulos, representados originalmente por el caracter `?`, fueron estandarizados a **NaN** para facilitar su tratamiento y análisis estadístico.
-- **Ingeniería de Características:** La columna `Fecha` fue reformateada al patrón YYYY-MM-DD de Pandas. A partir de esta, se crearon nuevas columnas (`Día`, `Mes`, `Año`) para un análisis temporal detallado.
+- **Manejo de Valores Faltantes:** Los valores desconocidos o nulos, representados originalmente por el carácter `?`, fueron estandarizados a **NaN** para facilitar su tratamiento y análisis estadístico.
+- **Ingeniería de Características:** La columna `Fecha` fue convertida al formato estándar YYYY-MM-DD de Pandas. A partir de esta, se crearon nuevas columnas (`Día`, `Mes`, `Año`) para un análisis temporal detallado.
 - **Estandarización:** Se renombraron las columnas para una **mejor legibilidad y estandarización** de los datos.
 - **Optimización:** Finalmente, el DataFrame procesado se guardó en formato **Parquet** para optimizar el rendimiento y acelerar la lectura de datos en análisis posteriores.
 
@@ -50,7 +50,7 @@ A continuación, se presentan los principales hallazgos obtenidos a partir de es
 
 ## `Análisis de Hallazgos Clave` 🔍
 
-### Víctimas por categoría (passageiros, tripulação, terceiros) y Eventos Atípicos
+### Víctimas por categoría (pasajeros, tripulação, terceiros) y Eventos Atípicos
 
 <img src="img/Distribución de Fatalidades en Accidentes de Avión por categoría.png">
 
@@ -131,7 +131,7 @@ Además de la alta exposición, es relevante considerar que muchas de estas empr
 1.  **Surgieron en el *Boom* Post-Guerra:** Se expandieron rápidamente en un entorno regulatorio menos estricto (antes de la consolidación de la OACI).
 2.  **Operaron Aeronaves Militares Adaptadas:** Utilizaron flotas que, en sus inicios, incluían modelos de origen militar excedente (como se mencionó en el análisis de modelos), que a menudo presentaban desafíos operacionales y de mantenimiento.
 
-### Rutas con mayor numero de Accidentes
+### Rutas con mayor número de Accidentes
 <img src="img/Rutas con Mayor Frecuencia de Accidentes Aéreos.png">
 
 El gráfico muestra las rutas específicas (definidas por pares de aeropuertos o regiones) donde se han concentrado más accidentes aéreos.
@@ -150,7 +150,7 @@ Este análisis de prevención de accidentes aéreos se desarrolló utilizando un
 | Categoría | Herramienta | Rol Específico en el Proyecto |
 | :--- | :--- | :--- |
 | **Entorno de Desarrollo** | **Jupyter Notebooks** | Utilizado como entorno interactivo para la escritura, ejecución y documentación del código Python (EDA y Análisis). |
-| **Manipulación y Limpieza** | **Pandas** | Esencial para la carga del *dataset*, la limpieza de datos (ej. manejo de `?` y rellenado de `NaN`), el filtrado, la agregación de información y la ingeniería de características (creación de columnas de fecha/tiempo). |
+| **Manipulación y Limpieza** | **Pandas** | Esencial para la carga del *conjunto de datos*, la limpieza de datos (ej. manejo de `?` y rellenado de `NaN`), el filtrado, la agregación de información y la ingeniería de características (creación de columnas de fecha/tiempo). |
 | **Cálculo Numérico** | **NumPy** | Empleado para realizar cálculos numéricos eficientes y operaciones vectorizadas necesarias en el análisis estadístico subyacente de los datos. |
 | **Visualización Estática** | **Matplotlib** | Herramienta clave para generar las visualizaciones exploratorias (EDA), incluyendo gráficos de tendencias temporales, distribuciones y análisis de frecuencia, documentados en este `README.md`. |
 | **Visualización Dinámica** | **Power BI** | Utilizado para diseñar y construir un **Dashboard Interactivo**. Permitió el seguimiento en tiempo real de los Indicadores Clave de Rendimiento (KPIs) y la exploración dinámica y *drill-down* de los resultados del análisis. |
