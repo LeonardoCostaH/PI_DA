@@ -5,24 +5,27 @@
 # <h1 align="center">**`Análisis de Datos para la prevención de Accidentes Aéreos`**</h1>
 ---
 
-### Índice del Proyecto
+
+### 📘 Índice del Proyecto
 
 - [Descripción del trabajo realizado](#descripción-del-trabajo-realizado)
 - [EDA (Exploratory Data Analysis)](#eda-exploratory-data-analysis)
-  - [Exploración Inicial](#exploración-inicial)
-  - [Análisis](#análisis)
-    - [Víctimas por Categoría](#víctimas-por-categoría)
-    - [Pasajeros a Bordo vs. Fatalidades](#pasajeros-a-bordo-vs-fatalidades)
-    - [Tendencias Temporales](#tendencias-temporales)
-    - [Accidentes por Estación del Año](#accidentes-por-estación-del-año)
-    - [Día más Desafortunado del Año](#día-más-desafortunado-del-año)
-    - [Accidentes por Horario](#accidentes-por-horario)
-    - [Análisis de Palabras en los Reportes](#análisis-de-palabras-en-los-reportes)
-    - [Modelos de Aeronaves con Mayor Número de Accidentes](#modelos-de-aeronaves-con-mayor-número-de-accidentes)
-    - [Empresas de Aviación con Mayor Cantidad de Accidentes](#empresas-de-aviación-con-mayor-cantidad-de-accidentes)
-    - [Rutas con Mayor Número de Accidentes](#rutas-con-mayor-número-de-accidentes)
-- [Uso de Tecnologías](#uso-de-tecnologías)
-- [Contacto](#contacto)
+  - [Exploración inicial y limpieza de datos](#exploración-inicial-y-limpieza-de-datos)
+- [Análisis de hallazgos clave 🔍](#análisis-de-hallazgos-clave-)
+  - [Víctimas por categoría (pasajeros, tripulación, terceros) y eventos atípicos](#víctimas-por-categoría-pasajeros-tripulación-terceros-y-eventos-atípicos)
+  - [Pasajeros a bordo vs. total de fatalidades](#pasajeros-a-bordo-vs-total-de-fatalidades)
+  - [Tendencias temporales y contexto histórico](#tendencias-temporales-y-contexto-histórico)
+  - [Accidentes por estación del año](#accidentes-por-estación-del-año)
+  - [Día más desafortunado del año](#día-más-desafortunado-del-año)
+  - [Horarios de mayor incidencia](#horarios-de-mayor-incidencia)
+  - [Causas raíz: análisis de palabras clave](#causas-raíz-análisis-de-palabras-clave)
+- [Modelos, Aerolíneas y Rutas con Mayor Número de Accidentes](#modelos-aerolíneas-y-rutas-con-mayor-número-de-accidentes)
+  - [Modelos de aeronaves con mayor número de accidentes](#modelos-de-aeronaves-con-mayor-número-de-accidentes)
+  - [Empresas de aviación con mayor cantidad de accidentes](#empresas-de-aviación-con-mayor-cantidad-de-accidentes)
+  - [Rutas con mayor número de accidentes](#rutas-con-mayor-número-de-accidentes)
+- [Uso de tecnologías y herramientas](#uso-de-tecnologías-y-herramientas-️)
+- [Contacto](#contacto-)
+
 
 ---
 
@@ -143,7 +146,7 @@ El gráfico muestra las rutas específicas (definidas por pares de aeropuertos o
 
 ---
 
-## 🛠️ Uso de Tecnologías y Herramientas
+## Uso de Tecnologías y Herramientas 🛠️
 
 Este análisis de prevención de accidentes aéreos se desarrolló utilizando un *stack* de tecnologías robustas que cubren todas las etapas del proceso de *Data Science*, desde la manipulación inicial hasta la visualización de resultados.
 
@@ -157,7 +160,7 @@ Este análisis de prevención de accidentes aéreos se desarrolló utilizando un
 
 ---
 
-## 📧 Contacto
+## Contacto 📧
 
 ¡Me encantaría conectar y discutir este análisis, o cualquier otro proyecto de Data Science!
 
